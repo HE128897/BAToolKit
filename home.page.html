@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AirSoftUnity</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+<body>
+  <ion-app>
+    <ion-header>
+      <ion-toolbar color="dark">
+        <ion-title>
+          AirSoftUnity
+        </ion-title>
+        <ion-button size="small">
+          connexion
+        </ion-button>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-img 
+      src="https://www.ypc.co.uk/wp-content/uploads/2020/03/airsofter-600x571.jpg"
+      alt="An AirSoft Player">
+      </ion-img><br>
+      <div id="container">
+        <strong>Connaissez vous l'AirSoft ?</strong>
+        <br>
+        <ion-button (click)="onChangeText()">Définition</ion-button>
+      </div>
+    </ion-content>
+  </ion-app>
+</body>
+</html>
+
+
+
+<!--<ion-header [translucent]="true">    CODE A GARDER !!!
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>{{ text }}</strong>
+    <ion-button (click)="onChangeText()"> 
+      Change Text
+    </ion-button>
+  </div>
+</ion-content>-->
